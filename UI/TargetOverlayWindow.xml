@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+	<View>
+		<View name="Root" min_size="Point(200,25)">
+			<LeetHaxxor/>
+		</View>
+	</View>
+</root>

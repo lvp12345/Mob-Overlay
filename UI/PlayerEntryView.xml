@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View fit_to_contents="true">
+		<View name="Select" fit_to_contents="true">
+			<View view_layout="vertical" fit_to_contents="true">
+				<View fit_to_contents="true" bg_color="0xFF000000">
+					<TextView name="TargetName" font="SMALL" feature_flags="TVF_RENDER_SHADOW" text_align="center" layout_borders="Rect(4,2,4,2)" fit_to_contents="true"/>
+				</View>
+				<PowerBar name="Health" full_gfx="MRBBarForeground" bg_gfx="MRBBarBackground" fit_to_contents="true">
+					<TextView name="HealthText" font="SMALL" feature_flags="TVF_RENDER_SHADOW" text_align="center" fit_to_contents="true"/>
+				</PowerBar>
+				<PowerBar name="Nano" full_gfx="MRBBarForeground" bg_gfx="MRBBarBackground" fit_to_contents="true">
+					<TextView name="NanoText" font="SMALL" feature_flags="TVF_RENDER_SHADOW" text_align="center" fit_to_contents="true"/>
+				</PowerBar>
+			</View>
+		</View>
+	</View>
+</root>

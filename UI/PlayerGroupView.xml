@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View>
+		<TextView name ="GroupName" value="Rest" layout_borders="Rect(0,2,0,2)"/>
+		<View name="GroupRoot" min_size="Point(100,15)">
+			<LeetHaxxor/>
+		</View>
+	</View>
+</root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<View>
+		<Button name="Select" min_size="Point(200,19)">
+			<View view_layout="horizontal">
+				<PowerBar name="Health" full_gfx="MRBBarForeground" bg_gfx="MRBBarBackground">
+					<BitmapView name="Profession" max_size="Point(15,15)" min_size="Point(15,15)"/>
+					<TextView name="LeftText" font="SMALL" feature_flags="TVF_RENDER_SHADOW" layout_borders="Rect(2,0,0,0)"/>
+					<HLayoutSpacer/>
+					<TextView name="RightText" font="SMALL" feature_flags="TVF_RENDER_SHADOW"  layout_borders="Rect(0,0,2,0)"/>
+				</PowerBar>
+			</View>
+		</Button>
+	</View>
+</root>

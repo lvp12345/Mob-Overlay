@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+  <BorderView v_alignment="TOP" h_alignment="CENTER" view_layout="vertical" name="MobOverlayInfoView" layout_borders="Rect(5,5,5,5)" max_size="Point(16000,-1)">
+    <TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+    <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="Mob Overlay Plugin" layout_borders="Rect(5,5,5,5)"/>
+    <TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+    <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="Features:" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="• Shows 3D health overlays above mobs in the game world" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="• Color-coded health spheres (Green=High, Yellow=Medium, Red=Low)" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="• Configurable range and overlay size" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="• Optional health numbers display in chat" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="• Separate settings for hostile, neutral, and friendly mobs" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="Commands:" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value="/moboverlay - Opens settings window" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+    <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(0,0,0,2)"/>
+    <TextView value=" " layout_borders="Rect(0,0,0,2)"/>
+  </BorderView>
+</root>

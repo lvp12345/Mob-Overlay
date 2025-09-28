@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<root>
+	<View fit_to_contents="true" layout_borders="Rect(0,0,0,0)">
+		<View name="Root" fit_to_contents="true" layout_borders="Rect(0,0,0,0)">
+			<LeetHaxxor/>
+		</View>
+	</View>
+</root>

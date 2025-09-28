@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+  <View view_layout="vertical" name="parent">
+    <BorderView v_alignment="TOP" h_alignment="CENTER" view_layout="vertical" name="Settings" layout_borders="Rect(5,5,5,5)" max_size="Point(16000,-1)">
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+      <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+      <Button name="MobOverlayInfoView" label="Info" layout_borders="Rect(5,5,3,5)"/>
+      <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+
+      <OptionCheckBox label="Enable Mob Overlay" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__Enable" layout_borders="Rect(10,1,5,1)"/>
+      <OptionCheckBox label="Show Health Overlays" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__ShowHealthOverlay" layout_borders="Rect(10,1,5,1)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+
+      <TextView value="Mob Types:" layout_borders="Rect(5,5,5,5)"/>
+      <OptionCheckBox label="Show Hostile Mobs" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__ShowHostileMobs" layout_borders="Rect(10,1,5,1)"/>
+      <OptionCheckBox label="Show Neutral Mobs" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__ShowNeutralMobs" layout_borders="Rect(10,1,5,1)"/>
+      <OptionCheckBox label="Show Friendly Players" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__ShowFriendlyMobs" layout_borders="Rect(10,1,5,1)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+
+      <TextView value="Display Options:" layout_borders="Rect(5,5,5,5)"/>
+      <OptionCheckBox label="Show Health Bars (Colored Spheres)" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__ShowHealthBars" layout_borders="Rect(10,1,5,1)"/>
+      <OptionCheckBox label="Show Health Numbers in Chat" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__ShowHealthNumbers" layout_borders="Rect(10,1,5,1)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+
+      <TextView value="Range (meters):" layout_borders="Rect(5,5,5,5)"/>
+      <OptionSlider label="Overlay Range" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__OverlayRange" min_value="10" max_value="100" layout_borders="Rect(10,1,5,1)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+
+      <TextView value="Overlay Size:" layout_borders="Rect(5,5,5,5)"/>
+      <OptionSlider label="Size Multiplier" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__OverlaySize" min_value="0.5" max_value="3.0" layout_borders="Rect(10,1,5,1)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+
+      <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+      <TextView value="Target Overlay:" layout_borders="Rect(5,5,5,5)"/>
+      <OptionCheckBox label="Enable Target Overlay" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__EnableTargetOverlay" layout_borders="Rect(10,1,5,1)"/>
+      <OptionCheckBox label="Target Overlay Moveable" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__TargetOverlayMoveable" layout_borders="Rect(10,1,5,1)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+
+      <TextView value="Target Overlay Position:" layout_borders="Rect(5,5,5,5)"/>
+      <OptionSlider label="Offset X" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__TargetOverlayOffsetX" min_value="-200" max_value="200" layout_borders="Rect(10,1,5,1)"/>
+      <OptionSlider label="Offset Y" opt_category="AOSharp" opt_type="variant" opt_variable="MobOverlay__TargetOverlayOffsetY" min_value="-200" max_value="200" layout_borders="Rect(10,1,5,1)"/>
+
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+      <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER" layout_borders="Rect(5,5,5,5)"/>
+      <TextView value=" " layout_borders="Rect(5,5,5,5)"/>
+    </BorderView>
+  </View>
+</root>
