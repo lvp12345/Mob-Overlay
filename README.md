@@ -1,18 +1,31 @@
 # Mob Overlay
 
-Tired of fighting mb'ers as a solo player without having any advantages? Or perhaps you are just tired of tabbing through a bunch of mb characters? Worry no more!
+A 3D health overlay plugin for Anarchy Online that displays mob health information directly in the game world.
 
 ## Features
 
-### Automated Multibox Detection
-- Automatically detects and maps multiboxes for you via a friendly User Interface
-- Automatically positions and reorders the multibox groups
+### 3D Health Overlays
+- Displays health bars and information for mobs directly in the 3D game world
+- Color-coded health indicators for easy visual identification
+- Real-time health updates as mobs take damage
 
-### One Click Selection
-- Selecting a character is as simple as clicking it in the User Interface
+### Target Overlay Window
+- Dedicated window showing detailed information about your current target
+- Health percentage and visual health bar
+- Moveable and resizable UI components
 
-### Advanced Display
-- Each character shows their health, profession, and if they are in line of sight
+### Configurable Settings
+- Customizable settings for different mob types
+- Adjustable overlay colors and display options
+- Settings accessible via `/moboverlay` command
 
-### Multibox Leader Detection
-- Highlights the leader (not group leader) that the main account is using
+## Commands
+
+- `/moboverlay` - Opens the main settings window
+- `/mobtarget` - Toggles the target overlay window
+
+## Installation
+
+1. Extract the plugin files to your AOSharp plugins directory
+2. Load the plugin through AOSharp
+3. Use the commands above to configure and use the overlay
